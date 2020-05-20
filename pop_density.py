@@ -102,7 +102,7 @@ if __name__ == '__main__':
         os.path.join(SOURCE_DATA_DIR, 'yidong_pop_jzgz_191218.geojson'),
         driver='GeoJSON', encoding='UTF-8')
     '''
-    #苏州基站点对应的栅格范围，原始点位坐标系为wgs84
+    #基站点对应的栅格范围，原始点位坐标系为wgs84
     spatial_range = (215816.8993, 1000.0, 0.0, 3547245.4869, 0.0, -1000.0)
     #栅格像元数
     row_col_shape = (144, 127)
